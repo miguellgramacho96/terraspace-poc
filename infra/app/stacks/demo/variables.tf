@@ -1,5 +1,4 @@
-variable "acl" {
-  description = "The canned ACL to apply. Defaults to 'private'."
+variable "bucket" {
   type        = string
-  default     = "private"
+  default     = "default-bucketName"
 }

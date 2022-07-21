@@ -3,9 +3,3 @@ variable "bucket" {
   type        = string
   default     = null
 }
-
-variable "acl" {
-  description = "(Optional) The canned ACL to apply. Defaults to 'private'."
-  type        = string
-  default     = "private"
-}

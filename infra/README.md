@@ -15,3 +15,8 @@ To deploy individual stacks:
 ## Terrafile
 
 To use more modules, add them to the [Terrafile](https://terraspace.cloud/docs/terrafile/).
+
+## Deploy Individual stack on specific environment
+
+    TS_ENV=dev terraspace up demo -y 
+    TS_ENV=dev terraspace down demo -y
